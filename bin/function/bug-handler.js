@@ -1,0 +1,1 @@
+exports.handler = async () => process.env.ENV_VARS_LAST_UPDATE || 'unset';
